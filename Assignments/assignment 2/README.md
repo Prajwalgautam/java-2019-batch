@@ -12,7 +12,7 @@ For example, if an object
 is holding some non-Java resource such as a file handle or character font, then you might want to 
 make sure these resources are freed before an object is destroyed.
 This type of operation is done using finalize() method.
-(space, space, Enter)
+
 ```
 Syntax:
 protected void finalize( ) 
@@ -20,7 +20,7 @@ protected void finalize( )
 // finalization code here 
 } 
 ```
-(space, space, Enter)
+
 The Java run time calls that method whenever it is about to recycle an object of that class.
 Inside the finalize( ) method, you will specify those actions that must be performed before an object 
 is destroyed.
